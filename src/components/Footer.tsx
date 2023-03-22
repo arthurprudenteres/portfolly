@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="mt-8">
+    <footer className="py-12">
       <div className="flex items-center justify-center">
         <div className="text-white">
           <a
@@ -51,7 +51,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="absolute bottom-8 left-0 text-xs md:text-sm w-full text-center">
+      <div className="absolute bottom-3 left-0 text-xs md:text-sm w-full text-center">
         Feito com React, TypeScript, Tailwind & ❤️
       </div>
     </footer>

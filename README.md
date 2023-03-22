@@ -15,7 +15,7 @@ Projeto inspirado no Portfolly, onde é gerado um simples portfólio baseado nas
 
 ## Demonstração
 
-https://lofi-app-eight.vercel.app/
+https://portfolly.vercel.app/
 
 ## Funcionalidades
 

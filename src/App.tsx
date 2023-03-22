@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 interface User {
   login: string;
@@ -47,7 +48,7 @@ function App() {
   }, [id]);
 
   return (
-    <div className="App min-h-screen w-full bg-gradient-to-r from-transparent to-[#7f9dea53]">
+    <div className="App min-h-screen w-full bg-gradient-to-r from-transparent to-[#7f9dea53] relative">
       <div className="Container mx-auto max-w-5xl">
         <Header
           firstName={user.name.split(" ")[0]}
@@ -70,6 +71,7 @@ function App() {
           <Projects error={error} user={user.login} />
         )}
         <Contact user={user.login} />
+        <Footer />
       </div>
     </div>
   );
