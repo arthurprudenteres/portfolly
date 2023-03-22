@@ -10,7 +10,8 @@ Projeto inspirado no Portfolly, onde é gerado um simples portfólio baseado nas
 
 ## Screenshots
 
-![image](https://i.snipboard.io/qRpabv.jpg)
+
+![preview](https://i.snipboard.io/ztwvUD.jpg)
 
 
 ## Demonstração
